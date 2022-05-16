@@ -32,9 +32,9 @@ func main() {
 		fmt.Println(so)
 	}
 
-	fmt.Print(string(data))
-	fmt.Print(string(something))
-	fmt.Print(string(everything))
+	fmt.Println(string(data))
+	fmt.Println(string(something))
+	fmt.Println(string(everything))
 
 	fmt.Println("Zip archive creation")
 	archive, err := os.Create("archive.zip")
